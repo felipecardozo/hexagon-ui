@@ -33,6 +33,22 @@
     margin-left: 38px;
 }
 
+.pyramid-container5 {
+    text-align: center;
+    transform: rotate(240deg);
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 160px;
+}
+
+.pyramid-container6 {
+    text-align: center;
+    transform: rotate(300deg);
+    position: absolute;
+    margin-top: 108px;
+    margin-left: 162px;
+}
+
 .pyramid-level-3 {
 	position: relative;
     border-bottom: 50px solid blue;
@@ -60,14 +76,16 @@
 .pyramid-level-1 {
   	position: relative;
     border-bottom: 50px solid red;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
     height: 0;
-    width: 100px;
+    width: 117px;
     margin-right:auto;
     margin-left:auto;
     top: 5px;
 }
+
+
 
 body{
   padding: 25px;
