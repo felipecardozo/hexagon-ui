@@ -94,12 +94,12 @@
 }
 
 .pyramid-level-6 {
-        position: relative;
-    border-bottom: 8px solid #38b1d6;
+    position: relative;
+    border-bottom: 8px solid #89cc78;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     height: 0;
-    width: 68px;
+    width: 60px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -107,11 +107,11 @@
 
 .pyramid-level-5 {
     position: relative;
-    border-bottom: 8px solid #b2ecec;
+    border-bottom: 8px solid #99d1de;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     height: 0;
-    width: 56px;
+    width: 48px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -119,23 +119,23 @@
 
 .pyramid-level-4 {
     position: relative;
-    border-bottom: 8px solid rgb(134, 208, 236);
+    border-bottom: 8px solid rgb(188, 225, 239);
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     height: 0;
-        width: 44px;
+        width: 36px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
 }
 
 .pyramid-level-33 {
-        position: relative;
-    border-bottom: 9px solid red;
+    position: relative;
+    border-bottom: 8px solid #e8ea51;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     height: 0;
-    width: 32px;
+    width: 24px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -143,11 +143,11 @@
 
 .pyramid-level-22 {
         position: relative;
-    border-bottom: 9px solid green;
+    border-bottom: 8px solid #eff595;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     height: 0;
-    width: 20px;
+    width: 12px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -155,9 +155,9 @@
 
 .pyramid-level-11 {
     position: relative;
-    border-bottom: 15px solid blue;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
+    border-bottom: 8px solid #af1111;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
     height: 0;
     width: 0px;
     margin-right:auto;
