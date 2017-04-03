@@ -95,11 +95,11 @@
 
 .pyramid-level-6 {
     position: relative;
-    border-bottom: 8px solid #89cc78;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
+    border-bottom: 20px solid #89cc78;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
     height: 0;
-    width: 60px;
+    width: 110px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -107,11 +107,11 @@
 
 .pyramid-level-5 {
     position: relative;
-    border-bottom: 8px solid #99d1de;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
+    border-bottom: 20px solid #99d1de;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
     height: 0;
-    width: 48px;
+    width: 88px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -119,11 +119,11 @@
 
 .pyramid-level-4 {
     position: relative;
-    border-bottom: 8px solid rgb(188, 225, 239);
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
+    border-bottom: 20px solid rgb(188, 225, 239);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
     height: 0;
-        width: 36px;
+    width: 66px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -131,23 +131,23 @@
 
 .pyramid-level-33 {
     position: relative;
-    border-bottom: 8px solid #e8ea51;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
+    border-bottom: 20px solid #e8ea51;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
     height: 0;
-    width: 24px;
+    width: 44px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
 }
 
 .pyramid-level-22 {
-        position: relative;
-    border-bottom: 8px solid #eff595;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
+    position: relative;
+    border-bottom: 20px solid #eff595;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
     height: 0;
-    width: 12px;
+    width: 22px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -155,12 +155,60 @@
 
 .pyramid-level-11 {
     position: relative;
-    border-bottom: 8px solid #af1111;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
+    border-bottom: 20px solid #af1111;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
     height: 0;
     width: 0px;
     margin-right:auto;
     margin-left:auto;
     top: 3px;    
+}
+
+.pyramid-container99-0 {
+    text-align: center;
+    transform: rotate(0deg);
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 144px;
+}
+
+.pyramid-container99-1 {
+    text-align: center;
+    transform: rotate(62deg);
+    position: absolute;
+    margin-top: 113px;
+    margin-left: 50px;
+}
+
+.pyramid-container99-2 {
+    text-align: center;
+    transform: rotate(180deg);
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 100px;
+}
+
+.pyramid-container99-3 {
+    text-align: center;
+    transform: rotate(124deg);
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 53px;
+}
+
+.pyramid-container99-4 {
+    text-align: center;
+    transform: rotate(236deg);
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 147px;
+}
+
+.pyramid-container99-5 {
+    text-align: center;
+    transform: rotate(298deg);
+    position: absolute;
+    margin-top: 113px;
+    margin-left: 150px;
 }
