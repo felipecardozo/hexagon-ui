@@ -99,7 +99,7 @@
     border-left: 11px solid transparent;
     border-right: 11px solid transparent;
     height: 0;
-    width: 110px;
+    width: 118px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -111,7 +111,7 @@
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     height: 0;
-    width: 88px;
+    width: 94px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -123,7 +123,7 @@
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     height: 0;
-    width: 66px;
+    width: 70px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -135,7 +135,7 @@
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     height: 0;
-    width: 44px;
+        width: 47px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -147,7 +147,7 @@
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     height: 0;
-    width: 22px;
+    width: 24px;
     margin-right: auto;
     margin-left: auto;
     top: 3px;
@@ -155,13 +155,13 @@
 
 .pyramid-level-11 {
     position: relative;
-    border-bottom: 20px solid #af1111;
+    border-bottom: 21px solid #af1111;
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     height: 0;
     width: 0px;
-    margin-right:auto;
-    margin-left:auto;
+    margin-right: auto;
+    margin-left: auto;
     top: 3px;    
 }
 
@@ -175,9 +175,9 @@
 
 .pyramid-container99-1 {
     text-align: center;
-    transform: rotate(62deg);
+    transform: rotate(60deg);
     position: absolute;
-    margin-top: 113px;
+    margin-top: 115px;
     margin-left: 50px;
 }
 
@@ -190,25 +190,25 @@
 }
 
 .pyramid-container99-3 {
-    text-align: center;
-    transform: rotate(124deg);
+text-align: center;
+    transform: rotate(120deg);
     position: absolute;
-    margin-top: 55px;
-    margin-left: 53px;
+    margin-top: 58px;
+    margin-left: 50px;
 }
 
 .pyramid-container99-4 {
     text-align: center;
-    transform: rotate(236deg);
+    transform: rotate(240deg);
     position: absolute;
-    margin-top: 55px;
-    margin-left: 147px;
+    margin-top: 58px;
+    margin-left: 150px;
 }
 
 .pyramid-container99-5 {
     text-align: center;
-    transform: rotate(298deg);
+    transform: rotate(300deg);
     position: absolute;
-    margin-top: 113px;
+    margin-top: 115px;
     margin-left: 150px;
 }
