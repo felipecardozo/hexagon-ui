@@ -6,20 +6,39 @@ var CONTROLADO = "#99d1de";
 var OPTIMIZADO = "#89cc78";
 
 function changeModel() {
-	var radios = $("input[name='options']:checked");
-	radios.forea
-	jQuery.each(radios, function(i, val) {
-
+	var radiosChecked = $("input[name='options']");
+	
+	jQuery.each(radiosChecked, function(i, val) {
 		if (val.value == "1-1") {
-			changeColorToComplete(".pyramid-container99-0 .pyramid-level-22");
+			if(val.checked == true){
+				changeColorToComplete(".pyramid-container99-0 .pyramid-level-22");
+			}else if(val.checked == false){
+				changeToDefaultColor(".pyramid-container99-0 .pyramid-level-22", INICIAL);
+			}
 		} else if (val.value == "1-2") {
-			changeColorToComplete(".pyramid-container99-0 .pyramid-level-33");
+			if(val.checked == true){
+				changeColorToComplete(".pyramid-container99-0 .pyramid-level-33");
+			}else if(val.checked == false){
+				changeToDefaultColor(".pyramid-container99-0 .pyramid-level-33", GESTIONADO);
+			}
 		} else if (val.value == "1-3") {
-			changeColorToComplete(".pyramid-container99-0 .pyramid-level-4");
+			if(val.checked == true){
+				changeColorToComplete(".pyramid-container99-0 .pyramid-level-4");
+			}else if(val.checked == false){
+				changeToDefaultColor(".pyramid-container99-0 .pyramid-level-4", DEFINIDO);
+			}
 		} else if (val.value == "1-4") {
-			changeColorToComplete(".pyramid-container99-0 .pyramid-level-5");
+			if(val.checked == true){
+				changeColorToComplete(".pyramid-container99-0 .pyramid-level-5");
+			}else if(val.checked == false){
+				changeToDefaultColor(".pyramid-container99-0 .pyramid-level-5", CONTROLADO);
+			}
 		} else if (val.value == "1-5") {
-			changeColorToComplete(".pyramid-container99-1 .pyramid-level-6");
+			if(val.checked == true){
+				changeColorToComplete(".pyramid-container99-0 .pyramid-level-6");
+			}else if(val.checked == false){
+				changeToDefaultColor(".pyramid-container99-0 .pyramid-level-6", OPTIMIZADO);
+			}
 		} else if (val.value == "2-1") {
 			changeColorToComplete(".pyramid-container99-1 .pyramid-level-22");
 		} else if (val.value == "2-2") {
@@ -72,7 +91,11 @@ function changeModel() {
 			changeColorToComplete(".pyramid-container99-5 .pyramid-level-6");
 		}
 	});
-
+	/*var radios = $("input[name='options']");
+	jQuery.each(radios, function(i, val) {
+		
+		if(val.checked == false) console.log(val.value);
+	});*/
 }
 
 function changeColorToComplete(selector) {
