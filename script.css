@@ -212,3 +212,13 @@ text-align: center;
     margin-top: 115px;
     margin-left: 150px;
 }
+
+.form{
+    float: right;
+    margin-right: 90px;
+    font-size: 12px;
+}
+
+.form ul li {
+    list-style-type: none;
+}
