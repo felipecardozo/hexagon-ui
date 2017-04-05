@@ -78,6 +78,11 @@ function changeModel() {
 	});*/
 }
 
+function changeModelDiv(val) {
+	//var color = $( val ).css( "border-bottom-color" );
+	console.log(val);
+}
+
 function changeColorToComplete(selector) {
 	$(selector).css("border-bottom-color", COMPLETE);
 }

@@ -1,3 +1,11 @@
+html {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+span{
+   font-weight: bold; 
+}
+
 .inside-text {
   position: absolute;
   bottom: -40px;
@@ -213,6 +221,11 @@ text-align: center;
     margin-left: 150px;
 }
 
+.hexagon{
+    margin-top: 50px;
+    margin-left: 56px;
+}
+
 .form{
     float: right;
     margin-right: 90px;
@@ -221,4 +234,53 @@ text-align: center;
 
 .form ul li {
     list-style-type: none;
+}
+
+.info{
+    font-weight: bold;
+    margin-left: 184px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.serv-tec{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 56px;
+    position: absolute;
+    height: 100px;
+    width: 53px;
+}
+
+.sist-infor{
+    font-weight: bold;
+    margin-left: 354px;
+    margin-top: 56px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.gob-ti{
+    margin-left: 15px;
+    margin-top: 190px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.uso-aprob{
+    margin-left: 165px;
+    margin-top: 274px;
+    position: absolute;
+}
+
+.est-ti{
+    margin-left: 354px;
+    margin-top: 190px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
 }
